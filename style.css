@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    cursor: default;
+}
+header{
+	background: black;
+	border-bottom: 5px solid yellow;
+	overflow: hidden;
+}
+h1{
+	color: yellow;
+	padding-left: 25px;
+	padding-top: 25px;
+	font-size: 1.5em;
+	font-family: 'Merriweather', serif;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 23px;
+}
+li{
+	float: left;
+	margin-left: 20px;
+}
+nav{
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	padding-top: 20px;
+}
+h2{
+	font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1em;
+    font-style: italic;
+    padding: 25px;
+    background: #AAAAAA;
+}
+#taste{
+	color: #555555;
+	text-decoration: line-through;
+}
+#are{
+	border-bottom: 2px solid yellow;
+	padding-bottom: 1px;
+}
+#hero{
+	background: url(coworking.jpg);
+	height: 600px;
+	background-size: cover;
+}
+h3{
+	font-family: 'Merriweather', serif;
+	font-size: 1.25em;
+    padding-bottom: 20px;
+}
+aside{
+	width: 355px;
+    background: rgba(255,255,255,.8);
+    border: 2px solid #CCCCCC;
+    line-height: 2em;
+    position: relative;
+    left: 865px;
+    padding: 25px;
+    padding-top: 45px;
+    height: 450px;
+    top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button{
+	background-color: yellow;
+    padding: 20px 66px;
+    font-size: 18px;
+    margin-top: 45px;
+    border-radius: 4%;
+    box-shadow: 0 2px 0 0 gray;
+    position: relative;
+    left: 20px;
+    top: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+	font-size: 20px;
+    width: 285px;
+    line-height: 1.7;
+}
+section{
+	padding-top: 30px;
+	padding-left: 25px;
+	overflow: hidden;
+}
+#option-1{
+	float: left;
+	width: 33%;
+	border-right: 1px solid #BBBBBB;
+	padding-left: 30px;
+}
+#option-2{
+	float: left;
+	width: 33%;
+	border-right: 1px solid #BBBBBB;
+	padding-left: 30px;
+}
+#option-3{
+	float: left;
+	width: 33%;
+	padding-left: 30px;
+}
+.gray-button{
+	background-color: #AAAAAA;
+}
+footer{
+	clear: both;
+	background-color: black;
+	padding-top: 30px;
+}
+#footer{
+	width: 400px;
+	color: white;
+	margin-left: 25px;
+    position: relative;
+    bottom: 13px;
+}
+main{
+	padding-bottom: 40px;
+}
